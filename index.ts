@@ -217,6 +217,7 @@
 
 // let top3 = x.sort((a, b) => b - a).slice(0, 3);
 
+// 
 // console.log("Ən böyük 3 ədəd:", top3); 
 // 34)Verilmiş array-də ədədlərin hansı biri 3-ə bölünür və həm də 5-ə bölünmür?
 // let x: number[] = [1, 2, 3, 4, 5];
