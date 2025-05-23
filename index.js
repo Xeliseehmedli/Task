@@ -204,12 +204,51 @@
 // 33) Verilmiş array-dəki ən böyük 3 ədədi tap.
 // let x: number[] = [1, 2, 3, 4, 5];
 // let top3 = x.sort((a, b) => b - a).slice(0, 3);
+// 
 // console.log("Ən böyük 3 ədəd:", top3); 
 // 34)Verilmiş array-də ədədlərin hansı biri 3-ə bölünür və həm də 5-ə bölünmür?
-var x = [1, 2, 3, 4, 5];
-var result = [];
+// let x: number[] = [1, 2, 3, 4, 5];
+// let result=[];
+// for(let i=0;i<x.length;i++){
+//     if(x[i]%3==0 && x[i]%5!==0)
+//         result.push(x[i])
+// }
+// console.log(result);
+// 35)
+// let arr=[1,2,3,4,5,1,2,3,4,5];
+// var obj={};
+// var result=[];
+// for(var i=0;i<arr.length;i++){
+//     var item=arr[i];
+//     if(obj[item]){
+//         obj[item]++
+//     }
+//     else{
+//         obj[item]=1
+//         result.push(item);
+//     }
+// }
+// console.log(result);
+// let coun=0;
+// for(let i=0;i<arr.length;i++){
+//     if(arr[i].length>max){
+//         max=arr
+//     }
+// }
+// console.log(max);
+// 36)arrayi tek ve cut olarag consola cixar 
+var x = [1, 2, 3, 4, 5, 6];
+var y = {
+    even: [],
+    odd: []
+};
 for (var i = 0; i < x.length; i++) {
-    if (x[i] % 3 == 0 && x[i] % 5 !== 0)
-        result.push(x[i]);
+    if (x[i] % 2 == 0) {
+        y.even.push(x[i]);
+    }
+    else {
+        y.odd.push(x[i]);
+    }
 }
-console.log(result);
+console.log(y.odd);
+console.log(y.even);

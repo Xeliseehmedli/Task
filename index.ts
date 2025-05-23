@@ -227,5 +227,46 @@
 //         result.push(x[i])
 // }
 // console.log(result);
+// 35)
+// let arr=[1,2,3,4,5,1,2,3,4,5];
+// var obj={};
+// var result=[];
+// for(var i=0;i<arr.length;i++){
+//     var item=arr[i];
+//     if(obj[item]){
+//         obj[item]++
+//     }
+//     else{
+//         obj[item]=1
+//         result.push(item);
+
+//     }
+// }
+// console.log(result);
+// let coun=0;
+// for(let i=0;i<arr.length;i++){
+//     if(arr[i].length>max){
+//         max=arr
+//     }
+// }
+// console.log(max);
+
+// 36)arrayi tek ve cut olarag consola cixar 
+// let x:number[]=[1,2,3,4,5,6];
+// let y:number={
+//     even:[]
+//     odd:[]
+// };
+// for(let i=0;i<x.length;i++){
+//     if(x[i]%2==0){
+//         y.even.push(x[i])
+//     }
+//     else{
+//         y.odd.push(x[i])
+//     }
+// }
+// console.log(y.odd);
+// console.log(y.even);
+
 
 
